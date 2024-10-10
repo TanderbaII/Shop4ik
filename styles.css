@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex; /* Используем flexbox для выравнивания */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar li:hover .dropdown-content {
+    display: block; /* Показываем содержимое подменю при наведении */
+}
+
+.navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: #ddd; /* Цвет фона подменю при наведении */
+}
+
+.product-grid {
+    display: flex; /* Активируем flexbox для карточек товаров */
+    flex-wrap: wrap; /* Разрешаем перенос на новую строку */
+    justify-content: space-between; /* Распределяем карточки по горизонтали */
+    max-width: 1200px; /* Максимальная ширина для сетки */
+    margin: 20px auto; /* Центрируем сетку */
+}
+
+.product-card {
+    width: calc(33.33% - 10px); /* Устанавливаем ширину карточки для 3 товаров в строке с отступами */
+    margin-bottom: 20px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Замените на нужные стили */
+    padding: 15px; /* Отступ внутри карточки */
+    box-sizing: border-box; /* Учитываем отступы в ширине */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
