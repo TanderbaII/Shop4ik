@@ -7,7 +7,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    display: flex; /* Используем flexbox для выравнивания */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -48,7 +48,7 @@ header {
 }
 
 .navbar li:hover .dropdown-content {
-    display: block; /* Показываем содержимое подменю при наведении */
+    display: block;
 }
 
 .navbar .dropdown-content a {
@@ -59,23 +59,23 @@ display: block;
 }
 
 .navbar .dropdown-content a:hover {
-background-color: #ddd; /* Цвет фона подменю при наведении */
+background-color: #ddd; 
 }
 
 .product-grid {
-display: flex; /* Активируем flexbox для карточек товаров */
-flex-wrap: wrap; /* Разрешаем перенос на новую строку */
-justify-content: space-between; /* Распределяем карточки по горизонтали */
-max-width: 1200px; /* Максимальная ширина для сетки */
-margin: 20px auto; /* Центрируем сетку */
+display: flex; 
+flex-wrap: wrap; 
+justify-content: space-between; 
+max-width: 1200px; 
+margin: 20px auto; 
 }
 
 .product-card {
-width: calc(33.33% - 10px); /* Устанавливаем ширину карточки для 3 товаров в строке с отступами */
-margin-bottom: 20px; /* Отступ снизу */
-border: 1px solid #ccc; /* Замените на нужные стили */
-padding: 15px; /* Отступ внутри карточки */
-box-sizing: border-box; /* Учитываем отступы в ширине */
+width: calc(33.33% - 10px); 
+margin-bottom: 20px;
+border: 1px solid #ccc;
+padding: 15px;
+box-sizing: border-box;
 }
 
 footer {
