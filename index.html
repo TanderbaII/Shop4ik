@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lean Shop</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="#"><img src="https://i.imgur.com/ZZPTYxo.png" alt="Логотип" style="height: 50px;"></a>
-        </div>
-        <div class="navbar">
-            <ul>
-                <li class="dropdown">
-                    <a href="#">Меню</a>
-                    <div class="dropdown-content">
-                        <a href="#item1">Худи</a>
-                        <a href="#item2">Штаны</a>
-                        <a href="#item3">Футболки</a>
-                        <a href="#item4">Зип-худи</a>
-                    </div>
-                </li>
-                <li class="cart"><a href="#">Корзина</a></li>
-                <li class="contacts"><a href="#">Контакты</a></li> 
-            </ul>
+        <div class="header-content">
+            <div class="header-left">
+                <a href="#" class="logo"><img src="https://i.imgur.com/ZZPTYxo.png" alt="Логотип" class="logo-img"></a>
+            </div>
+            <div class="header-right">
+                <nav class="navbar">
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#">Меню</a>
+                            <div class="dropdown-content">
+                                <a href="#item1">Худи</a>
+                                <a href="#item2">Штаны</a>
+                                <a href="#item3">Футболки</a>
+                                <a href="#item4">Зип-худи</a>
+                            </div>
+                        </li>
+                        <li class="cart">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/711/711897.png" alt="Корзина">Корзина</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     
@@ -71,7 +76,28 @@
     </main>
 
     <footer>
-        <p>© 2024 Lean Shop. Все права защищены.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ПОКУПАТЕЛЯМ</h3>
+                <p><a href="#">Как оформить заказ</a></p>
+                <p><a href="#">Способы доставки</a></p>
+                <p><a href="#">Способы оплаты</a></p>
+                <p><a href="#">Пользовательское соглашение</a></p>
+                <p><a href="#">Политика конфиденциальности</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Lean SHOP</h3>
+                <p><a href="#">О нас</a></p>
+                <p><a href="#">Адреса магазинов</a></p>
+                <p><a href="#">Реквизиты</a></p>
+                <p><a href="#">Контакты</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+                <p><a href="#">В контакте</a></p>
+            </div>
+        </div>
+        <p class="footer-note">© 2024 Lean Shop. Все права защищены.</p>
     </footer>
 </body>
 </html>
