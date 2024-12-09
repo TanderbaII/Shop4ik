@@ -1,16 +1,14 @@
-/* Логотип */
+
 .logo-img {
     width: 50px;
     height: auto;
 }
 
-/* Header */
 header {
     background-color: #333;
     color: white;
 }
 
-/* Основной текст под каруселью */
 .about-text {
     background-color: #f9f9f9;
     padding: 15px;
@@ -20,7 +18,7 @@ header {
     font-size: 1rem;
 }
 
-/* Уменьшенная карусель и её позиционирование */
+HEAD
 #bannerCarousel {
     max-width: 700px;
     margin-left: auto;
@@ -32,13 +30,12 @@ header {
     object-fit: cover;
 }
 #bannerCarousel .carousel-caption {
-    bottom: 10%; /* Перемещаем текст ниже */
-    background: rgba(0, 0, 0, 0.5); /* Добавляем фон для улучшения читаемости */
+    bottom: 10%; 
+    background: rgba(0, 0, 0, 0.5); 
     padding: 10px;
     border-radius: 5px;
 }
 
-/* Карточки товаров */
 .product-card {
     display: flex;
     flex-direction: column;
@@ -76,7 +73,6 @@ header {
     background-color: #e63900;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -101,7 +97,6 @@ footer {
     font-size: 0.9em;
 }
 
-/* Анимации */
 .animate__pulse {
     animation-duration: 1s;
 }
@@ -116,7 +111,6 @@ footer {
     animation-fill-mode: both;
 }
 
-/* Адаптивный дизайн для карточек товаров */
 @media (max-width: 1200px) {
     .product-card {
         flex: 1 1 calc(33.333% - 10px);
@@ -158,7 +152,6 @@ footer {
     }
 }
 
-/* Контейнер для карусели и карточек товаров */
 .carousel-and-products {
     display: flex;
     flex-direction: row;
